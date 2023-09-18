@@ -7,7 +7,7 @@ from push_notification.push_alert import push_notifiction
 
 def downIps(ip_address, downStatus):
     print("=== down ip found ===")
-    last_resultCode = ping_ip(ip_address, pause_minute = 1, pingLoop = 1)
+    last_resultCode = ping_ip(ip_address, pingLoop = 1)
     # assign the arranged datas
     if last_resultCode != -1:
         dumpData = downDataFormatter(
