@@ -1,0 +1,4 @@
+__pycache__/
+tobe_sent.txt
+.vscode
+push_notification/.env
